@@ -1,0 +1,16 @@
+# 肺癌手術予後予測アプリ - 必要ライブラリ
+# pip install -r requirements.txt
+
+# Web UI
+streamlit>=1.28.0
+
+# データ処理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 機械学習
+scikit-learn>=1.3.0
+scikit-survival>=0.22.0
+
+# Excel出力（オプション）
+openpyxl>=3.1.0
